@@ -1,10 +1,13 @@
 #include <iostream>
-using std::cout;
+#include<vector>
+using namespace std;
 
 int main() {
 
-    vector<int> a {1, 2, 3, 4, 5};
-    for (auto i : a) {
+    vector<int> num = {1, 2, 3, 4, 5};
+    for ( int i =0;i<5;i++ ) {
+      cout<< num[i]<<" ";
         // Imprimir los numeros
     }
 }
+
